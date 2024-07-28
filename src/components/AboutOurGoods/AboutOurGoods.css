@@ -1,0 +1,20 @@
+.about-our-beans__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 697px;
+    padding: 70px 0 120px;
+}
+
+.about-our-beans__title {
+    margin-top: 9px;
+}
+
+.about-our-beans__text {
+    max-width: 346px;
+    text-align: center;
+}
+
+.about-our-beans--beans__image {
+    margin: 20px 0 25.7px;
+}
+

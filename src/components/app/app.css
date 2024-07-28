@@ -1,0 +1,8 @@
+.app {
+    font-family: var(--font-main);
+    font-size: 14px;
+
+
+    margin: 0 auto;
+    max-width: 1439px;
+}

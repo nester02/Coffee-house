@@ -1,0 +1,65 @@
+.home__main {
+    background: url("../../../public/home-background.jpg") no-repeat;
+    color: white;
+}
+.home {
+    text-align: center;
+}
+
+.home__container {
+    padding: 181px 0 201px;
+}
+
+.home__heading {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: var(--drop-shadow);
+}
+
+.beans__image {
+    position: relative;
+    margin: 20px 0 34.7px;
+    filter: drop-shadow(var(--drop-shadow));
+}
+
+.beans__image::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: white;
+    top: 15px;
+    left: 621px;
+    box-shadow: var(--drop-shadow);
+}
+
+.beans__image::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: white;
+    top: 15px;
+    right: 621px;
+    box-shadow: var(--drop-shadow);
+}
+
+.home__text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.home__text:nth-of-type(2) {
+    margin: 20px 0 18px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home__button {
+    color: #fff;
+    line-height: 15px;
+    font-weight: 700;
+    padding: 6.5px 41px 6.5px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}

@@ -1,0 +1,41 @@
+.footer {
+
+}
+
+.footer__container {
+    max-width: 355px;
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__links--footer {
+    justify-content: space-between;
+}
+
+.nav__links--footer a {
+    color: #000;
+}
+
+.nav__logo--footer:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: url('../../../public/footer-beans-logo.svg') no-repeat center center;
+    width: 35px;
+    height: 35px;
+}
+
+.beans__image--footer {
+    margin: 20px 0 20px;
+}
+
+.beans__image--footer:before {
+    left: 55px;
+}
+
+.beans__image--footer:after {
+    right: 55px;
+}

@@ -1,0 +1,51 @@
+.about-it__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    max-width: 865px;
+    padding: 70px 0 30px;
+}
+
+.about-it__text {
+    max-width: 434px;
+}
+
+.about-it-country span {
+    font-weight: 700;
+}
+
+.about-our-beans__description {
+    max-width: 418px;
+}
+
+.about-our-beans__description span {
+    font-weight: 700;
+}
+
+.about-it__image--beans {
+    text-align: center;
+    margin: 21px 0 25.7px;
+}
+
+.about-it__image--beans::before {
+    left: 26.96%;
+}
+
+.about-it__image--beans::after {
+    right: 26.96%;
+}
+
+.about-it-country {
+    margin: 16px auto;
+}
+
+.about-it__price {
+    height: 35px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.about-it__price span{
+    font-size: 24px;
+}
+

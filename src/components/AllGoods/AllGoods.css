@@ -1,0 +1,82 @@
+.all-goods {
+    /* Стили для основного контейнера секции */
+}
+
+.all-goods__container {
+    position: relative;
+    max-width: 802px;
+    padding: 30px 0 52px;
+}
+
+.all-goods__container::before {
+    position: absolute;
+    content: "";
+    width: 240px;
+    height: 1px;
+    background-color: #000;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.all-goods__heading {
+    max-width: 693px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-goods__search {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 19px;
+}
+
+.all-goods__search--text {
+
+}
+
+.all-goods__search--input {
+    text-align: center;
+    height: 100%;
+    width: 180px;
+    border-radius: 4px;
+    box-shadow: var(--drop-shadow);
+}
+
+.all-goods__filter {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.all-goods__filter--text {
+    /* Стили для текста фильтров */
+}
+
+.all-goods__filter--buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.all-goods__filter--btn {
+    width: 75px;
+    height: 30px;
+    box-shadow: var(--drop-shadow);
+}
+
+.all-goods__filter--btn:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.all-goods__filter--btn:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.all-goods__cards {
+    margin: 61px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 69px;justify-content: center;
+}

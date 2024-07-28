@@ -1,0 +1,31 @@
+.coffee-item__card {
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.coffee-item__image {
+    margin: 16.82% auto 6.365%;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-bottom: 22.5px;
+    color: #000;
+}
+
+.coffee-item__title {
+    height: 15px;
+}
+
+.coffee-item__country {
+    height: 14px;
+}
+
+.coffee-item__price {
+    height: 15px;
+    margin: 0 25px 0 0;
+}
+

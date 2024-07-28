@@ -1,0 +1,12 @@
+.home__our-coffee {
+    text-align: center;
+    color: #fff;
+    background: url("../../../public/home-our-coffee-bg.jpg") no-repeat;
+    padding: 130px 0 84px;
+}
+
+.home__our-coffee--heading {
+    height: 46px;
+    font-size: 40px;
+    font-weight: 700;
+}

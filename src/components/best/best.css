@@ -1,0 +1,23 @@
+.best {
+    background: url("../../../public/best-bg.jpg") no-repeat center center;
+    object-fit: cover;
+    height: 495px;
+}
+
+
+.best--container {
+    max-width: 842px;
+    padding: 80px 0 110px;
+    text-align: center;
+}
+
+.best__heading {
+    font-size: 24px;
+}
+
+.best__cards {
+    margin: 39px 0 110px;
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+}

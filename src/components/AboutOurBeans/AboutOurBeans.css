@@ -18,3 +18,10 @@
     margin: 20px 0 25.7px;
 }
 
+.about-our-beans--beans__image::after {
+    right: 68px;
+}
+
+.about-our-beans--beans__image::before {
+    left: 68px;
+}
